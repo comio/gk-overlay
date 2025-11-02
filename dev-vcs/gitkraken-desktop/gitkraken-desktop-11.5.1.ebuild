@@ -11,7 +11,7 @@ SRC_URI="
 	https://api.gitkraken.dev/releases/production/linux/x64/active/gitkraken-amd64.deb -> ${P}-amd64.deb"
 S=${WORKDIR}
 
-LICENSE="all-rights-reserved"
+LICENSE="Gitkraken-EULA"
 SLOT="0"
 KEYWORDS="-* ~amd64"
 IUSE=""
