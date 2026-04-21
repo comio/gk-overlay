@@ -42,7 +42,7 @@ src_install() {
 	exeinto /opt/gk-cli/bin
 	doexe ${S}/gk
 	dosym /opt/gk-cli/bin/gk /usr/bin/gk
-	dodoc ${S}/README.md
+	# dodoc ${S}/README.md
 
 	if use completion; then
 		ebegin "Installing shell completions"
